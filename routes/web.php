@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'StudentController@index')->name('welcome');
-/* Route::get('/', 'ClasseController@index')->name('welcome'); */
+/* Route::get('/', 'StudentController@index')->name('welcome');
+Route::get('/', 'ClasseController@index')->name('welcome'); */
+Route::get('/', 'CourseController@index')->name('welcome'); 

@@ -7,22 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <ul>
-        @foreach($students as $student)
-            <li>
-                {{$student->nome}}
-                {{$student->cognome}}
-            </li>
-        @endforeach
-    </ul>
+
     <ul>
-        @foreach($classes as $classe)
+        @foreach($courses as $corso)
             <li>
-                {{$classe->anno}}
-                {{$classe->sezione}}
+                Nome del corso: {{$corso->nome}}
             </li>
         @endforeach
-    </ul> -->
+    </ul> 
+    
 </body>
 </html>
 
