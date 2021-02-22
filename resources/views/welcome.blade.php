@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>
+    <!-- <ul>
         @foreach($students as $student)
             <li>
                 {{$student->nome}}
@@ -15,5 +15,16 @@
             </li>
         @endforeach
     </ul>
+    <ul>
+        @foreach($classes as $classe)
+            <li>
+                {{$classe->anno}}
+                {{$classe->sezione}}
+            </li>
+        @endforeach
+    </ul> -->
 </body>
 </html>
+
+<?php
+

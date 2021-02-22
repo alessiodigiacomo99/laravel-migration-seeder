@@ -40,5 +40,7 @@ class StudentSeeder extends Seeder
             $newStudent->cognome = $studente['cognome'];
             $newStudent->save();
         }
+
+        
     }
 }
