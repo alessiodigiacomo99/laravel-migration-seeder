@@ -10,12 +10,17 @@
 
     <ul>
         @foreach($courses as $corso)
-            <li>
-                Nome del corso: {{$corso->nome}}
-            </li>
+            <div>
+                <li>
+                    Nome del corso: {{$corso->nome}}
+                </li>
+                <li>
+                    Docente del corso: Prof.{{$corso->docente}}
+                </li>
+             </div>
         @endforeach
     </ul> 
-    
+
 </body>
 </html>
 

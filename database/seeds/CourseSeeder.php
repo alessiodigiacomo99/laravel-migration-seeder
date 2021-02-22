@@ -16,6 +16,7 @@ class CourseSeeder extends Seeder
         for ($i=0; $i < 10; $i++) { 
             $newCourse = new Course;
             $newCourse->nome = $faker->sentence(1);
+            $newCourse->docente = $faker->lastName;
             $newCourse->save();
         }
     }
